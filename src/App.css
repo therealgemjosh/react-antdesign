@@ -1,3 +1,5 @@
+@import "~antd/dist/antd.css";
+
 .App {
   text-align: center;
 }
@@ -24,15 +26,19 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .Header{
+padding: 1rem 0px;
+background:#333;
+margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Header h2{
+
+	color:#ddd;
+}
+.App .Appcontent{
+
+min-height: 70vh;
+padding: 0px 1rem;
 }
